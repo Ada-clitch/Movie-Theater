@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada Clitch Theater 🍿🎬</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="media/favicon.ico">
+</head>
+<body>
+    <!-- screen section-->
+    <section class="theaterscreen">
+    <!-- movie name-->
+            <marquee behavior="" direction="">Homeless to Harvard - Now playing</marquee> 
+            <!--movie-->
+        <video  controls id="movie-trailer"  src="media/trailer.mp4" poster="media/picture.jpg"><p  class="fallback-msg"> Your browser does not support the video tag</p></video>
+        </div>
+        <!-- buttons-->
+        <div class="buttons">
+            <button  id="play">▶ Play Again</button>
+            <br>
+            <button    id="rate">⭐ Rate movie </button>
+            <div class="rmodal" id="modal">
+                <div class="modelc">
+                    <h2>Rate this movie </h2>
+                    <div  id="stars">
+                    <span  data-rate="1">&#9733;</span>
+                    <span  data-rate="2">&#9733;</span>
+                    <span  data-rate="3">&#9733;</span>
+                    <span  data-rate="4">&#9733;</span>
+                    <span  data-rate="5">&#9733;</span>
+                </div>
+                </div>
+                <button id="Submit">Submit</button>
+            </div>
+         </div>
+          <div class="info">
+           <marquee behavior="" direction=""> Made by : Soman Rahimi</marquee>
+          </div>
+    </section>
+      <script   src="script.js"></script>
+</body>
+</html>
